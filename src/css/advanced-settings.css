@@ -1,16 +1,23 @@
 html {
     height: 100vh;
     overflow: hidden;
-    }
+}
+
 body {
     overflow: hidden;
-    }
+}
+
+body>div.body>p {
+    padding-left: 1em !important;
+}
+
 #advancedSettings {
     border-top: 1px solid #ddd;
     height: 75vh;
     text-align: left;
     width: 100%;
-    }
+}
+
 .CodeMirror-wrap pre {
     word-break: break-all;
-    }
+}

@@ -31,7 +31,7 @@ a {
     }
 #appinfo {
     align-items: flex-end;
-    background-color: #444;
+    background-color: #535353;
     border: 0;
     color: #bbb;
     display: flex;
@@ -329,7 +329,6 @@ body[dir="rtl"] #tooltip {
     }
 #firewallContainer > div > span[data-acount]::before,
 #firewallContainer > div > span[data-bcount]::after {
-    font-family: monospace;
     position: absolute;
     }
 #firewallContainer > div > span[data-acount]::before {
