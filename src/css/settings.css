@@ -1,31 +1,25 @@
 ul {
     padding-left: 1em;
     padding-right: 0;
-}
-
+    }
 body[dir="rtl"] ul {
     padding-left: 0;
     padding-right: 1em;
-}
-
+    }
 ul#userSettings {
     padding-left: 0;
-}
-
+    }
 li {
     margin-top: 0.5em;
     list-style-type: none;
-}
-
+    }
 ul#userSettings,
 ul#userSettings ul {
     list-style-type: none;
-}
-
+    }
 ul#userSettings .subgroup {
     margin-top: 1em;
-}
-
+    }
 ul#userSettings .subgroup>span {
     font-size: 108%;
     padding: 0.3em;
@@ -33,37 +27,30 @@ ul#userSettings .subgroup>span {
     border-bottom: 1px solid #f0f3f4;
     padding: 0.5em;
     margin-bottom: 1em;
-}
-
+    }
 #advanced-user-enabled~a.fa {
     display: none;
-}
-
+    }
 body.advancedUser #advanced-user-enabled~a.fa {
     display: inline;
-}
-
+    }
 #localData {
     padding: 1em 0 1em 0;
-}
-
+    }
 #localData>ul>li {
     list-style-type: none;
     margin-top: 1em;
-}
-
+    }
 #localData>ul>li>ul>li:nth-of-type(2) {
     font-family: monospace;
-}
-
+    }
 #localData>ul>li>span.prompt {
     color: rgba(0, 0, 0, 0.7);
-}
-
+    }
 input[type="number"] {
     width: 5em;
     background: #F1F3F4;
     padding: 8px;
     margin-left: 8px;
     border: none;
-}
+    }

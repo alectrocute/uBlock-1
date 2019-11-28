@@ -76,15 +76,13 @@
     }
 #domInspector li > code.filter {
     color: red;
-    }
-
+        }
 #domInspector li > ul {
     display: block;
     }
 #domInspector li:not(.hasCosmeticHide):not(.isCosmeticHide):not(.show) > ul {
     display: none;
-    }
-
+        }
 #domInspector:not(.vExpanded) li:not(.hasCosmeticHide):not(.isCosmeticHide) {
     display: none;
     }
@@ -105,8 +103,7 @@
     }
 #domInspector.hCompact li > code:first-of-type {
     max-width: 12em;
-    }
-
+        }
 #cosmeticFilteringDialog .dialog {
     text-align: center;
     }

@@ -27,7 +27,7 @@ body {
     body {
         font-size: small;
         }
-}
+    }
 body > div {
     margin: 0 0 1.5em 0;
     }
@@ -130,7 +130,7 @@ body[dir="rtl"] #theURL > p > span {
     }
 #whyex a {
     white-space: nowrap;
-}
+    }
 .proceedChoice {
     text-align: left;
     }

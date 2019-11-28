@@ -1,18 +1,15 @@
 .body.about {
     padding-left: 1em;
     margin-top: 1em;
-}
-
+    }
 .aboutLogo {
     display: flex;
-}
-
+    }
 .aboutLogo img {
     width: 20px;
     height: auto;
     margin-right: 1em;
-}
-
+    }
 ul>li {
     list-style-type: none;
     margin-top: 1em;

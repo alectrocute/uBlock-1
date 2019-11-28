@@ -50,8 +50,7 @@ body[dir="ltr"] #pageSelector {
     }
 body[dir="rtl"] #pageSelector {
     margin-left: 1em;
-    }
-
+        }
 #showpopup {
     display: inline-flex;
     align-items: center;
@@ -66,8 +65,7 @@ body[dir="rtl"] #pageSelector {
     }
 #info:hover {
     fill: #000;
-    }
-
+        }
 /*
     https://github.com/gorhill/uBlock/issues/3293
     => https://devhints.io/css-system-font-stack
@@ -87,19 +85,16 @@ body[dir="rtl"] #pageSelector {
     font-size: small;
     overflow-x: hidden;
     overflow-y: auto;
-}
-
+    }
 .inspector:not(.vExpanded) .vCompactToggler.button {
     transform: scaleY(-1)
     }
 .hCompact .hCompactToggler.button {
     transform: scaleX(-1)
-    }
-
+        }
 #inspectors.dom #netInspector {
     display: none;
-    }
-
+        }
 #netInspector #pause > span:last-of-type {
     display: none;
 }
@@ -158,8 +153,7 @@ body[dir="ltr"] #netInspector #filterExprPicker {
     }
 body[dir="rtl"] #netInspector #filterExprPicker {
     left: 0;
-    }
-
+        }
 #netInspector #filterExprGroup:hover #filterExprButton.expanded ~ #filterExprPicker {
     display: flex;
     }
@@ -198,8 +192,7 @@ body[dir="rtl"] #netInspector #filterExprPicker {
 #netInspector #filterExprPicker span.on[data-filtex] {
     background-color: lightblue;
     border: 1px solid lightblue;
-    }
-
+        }
 #netInspector .vscrollable {
     overflow: hidden;
     }
@@ -288,8 +281,7 @@ body.colorBlind #vwRenderer .logEntry > div.redirect {
     }
 #vwRenderer .logEntry > div.voided:hover {
     opacity: 0.7;
-    }
-
+        }
 #vwRenderer .logEntry > div > span {
     border: 1px solid #ccc;
     border-top: 0;
@@ -433,8 +425,7 @@ body.colorBlind #netFilteringDialog > .panes > .details > div[data-status="2"] b
     }
 #vwRenderer .logEntry > div > span:nth-of-type(7) a:hover {
     opacity: 1;
-    }
-
+        }
 #vwRenderer #vwBottom {
     background-color: #00F;
     height: 0;
@@ -448,8 +439,7 @@ body.colorBlind #netFilteringDialog > .panes > .details > div[data-status="2"] b
     top: 0;
     visibility: hidden;
     width: 100%;
-    }
-
+        }
 #popupContainer {
     background: white;
     border: 1px solid gray;
@@ -463,8 +453,7 @@ body.colorBlind #netFilteringDialog > .panes > .details > div[data-status="2"] b
     }
 #inspectors.popupOn #popupContainer {
     display: block;
-    }
-
+        }
 #modalOverlay {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
@@ -514,8 +503,7 @@ body[dir="rtl"] #modalOverlay > div > div:nth-of-type(2) {
     }
 #modalOverlay > div > div:nth-of-type(2) > * {
     pointer-events: none;
-    }
-
+        }
 #netFilteringDialog {
     font-size: 95%;
     }
@@ -564,8 +552,7 @@ body[dir="rtl"] #modalOverlay > div > div:nth-of-type(2) {
     background-color: white;
     cursor: pointer;
     padding: 0.5em;
-    }
-
+        }
 #netFilteringDialog > .headers {
     border-bottom: 1px solid #888;
     line-height: 2;
@@ -838,8 +825,7 @@ body.colorBlind  #netFilteringDialog > div.panes > .dynamic .entry > .action > .
     }
 #netFilteringDialog > div.panes > div.static > div:nth-of-type(2) {
     text-align: center;
-    }
-
+        }
 #filterFinderDialog {
     word-break: break-all;
     }
@@ -875,8 +861,7 @@ body.colorBlind  #netFilteringDialog > div.panes > .dynamic .entry > .action > .
     }
 #filterFinderDialog > *:last-child {
     margin-bottom: 0;
-    }
-
+        }
 #loggerStatsDialog .sortedEntries {
     display: flex;
     flex-direction: column;
@@ -896,8 +881,7 @@ body.colorBlind  #netFilteringDialog > div.panes > .dynamic .entry > .action > .
     flex-grow: 1;
     flex-shrink: 1;
     white-space: pre;
-    }
-
+        }
 #loggerExportDialog {
     display: flex;
     flex-direction: column;
@@ -930,8 +914,7 @@ body.colorBlind  #netFilteringDialog > div.panes > .dynamic .entry > .action > .
     height: 60vh;
     padding: 0.5em;
     white-space: pre;
-    }
-
+        }
 #loggerSettingsDialog {
     display: flex;
     flex-direction: column;
@@ -957,8 +940,7 @@ body[dir="rtl"] #loggerSettingsDialog ul {
     }
 #loggerSettingsDialog input {
     max-width: 6em;
-    }
-
+        }
 .hide {
     display: none !important;
     }

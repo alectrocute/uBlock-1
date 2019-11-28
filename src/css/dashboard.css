@@ -7,14 +7,12 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden;
-}
-
+    }
 @media screen and (max-device-width: 960px) {
     #dashboard-nav {
         zoom: 1.2;
     }
-}
-
+    }
 #dashboard-nav {
     border: 0;
     margin: 0;
@@ -22,8 +20,7 @@ body {
     top: 0;
     width: 100%;
     z-index: 10;
-}
-
+    }
 #dashboard-nav-widgets {
     align-items: stretch;
     display: flex;
@@ -31,19 +28,16 @@ body {
     padding: 8px;
     background: #F1F3F4;
     white-space: nowrap;
-}
-
+    }
 #dashboard-nav-widgets>span {
     align-items: center;
     display: inline-flex;
     padding: 0 1em 0 1em;
     width: 1.3em;
-}
-
+    }
 #dashboard-nav-widgets>span>img {
     width: 100%;
-}
-
+    }
 .tabButton {
     background: #dee1e680;
     color: #6e6e6e !important;
@@ -56,35 +50,29 @@ body {
     position: relative;
     text-decoration: none;
     top: 8px;
-}
-
+    }
 .tabButton:hover {
     background: rgba(0, 0, 0, 0.02)
-}
-
+    }
 .tabButton:focus {
     outline: 0;
-}
-
+    }
 .tabButton:active,
 .tabButton:visited {
     color: inherit;
-}
-
+    }
 .tabButton.selected {
     background: #FFF;
     color: #5F6368 !important;
     transition: all 140ms ease;
-}
-
+    }
 iframe {
     background-color: transparent;
     border: 0;
     margin: 0;
     padding: 0;
     width: 100%;
-}
-
+    }
 #unsavedWarning {
     box-shadow: rgba(128, 128, 128, 0.4) 0 4px 4px;
     display: none;
@@ -92,38 +80,30 @@ iframe {
     position: absolute;
     width: 100%;
     z-index: 20;
-}
-
+    }
 #unsavedWarning.on {
     display: initial;
-}
-
+    }
 #unsavedWarning>div:first-of-type {
     background-color: #ffffcc;
     padding: 0.5em;
-}
-
+    }
 #unsavedWarning>div:last-of-type {
     height: 100vh;
     position: absolute;
     width: 100vw;
-}
-
+    }
 body:not(.canUpdateShortcuts) .tabButton[href="#shortcuts.html"] {
     display: none;
-}
-
+    }
 @media (max-width: 640px) {
     #dashboard-nav {
         position: relative;
-    }
-
+        }
     .hverbose {
         display: none !important;
-    }
-
+        }
     .tabButton {
         font-size: 90%;
-    }
-
+        }
 }

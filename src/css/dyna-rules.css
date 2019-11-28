@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
     white-space: nowrap;
-}
+    }
 #diff .tools > * {
     margin-bottom: 0.5em;
     }
@@ -76,4 +76,4 @@ body {
 body[dir="rtl"] .CodeMirror-merge-pane-rightmost {
     right: unset;
     left: 0;
-}
+    }
